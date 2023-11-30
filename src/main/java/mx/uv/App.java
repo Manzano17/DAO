@@ -10,13 +10,11 @@ import com.google.gson.*;
  * Hello world!
  *
  */
-public class App 
-{
+public class App {
     static Gson gson = new Gson();
     static HashMap<String, Usuario> usuarios = new HashMap<String, Usuario>();
     
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ){
         
         System.out.println( "Hello World!" );
 
